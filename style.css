@@ -11,7 +11,7 @@ html {
 body {
   direction: rtl;
   font-family: Arial, sans-serif;
-  background: linear-gradient(180deg, #fff0f7 0%, #eef7ff 45%, #fff8e1 100%);
+  background: linear-gradient(180deg, #f8fbfa 0%, #eef7f5 45%, #f4f2ea 100%);
   color: #2f2925;
   line-height: 1.8;
 }
@@ -42,15 +42,15 @@ h2 {
   text-align: center;
   margin-bottom: 42px;
   position: relative;
-  color: #7b1fa2;
+  color: #3f6c66;
 }
 
 h2::after {
   content: "";
   display: block;
-  width: 130px;
-  height: 6px;
-  background: linear-gradient(90deg, #ff9800, #e91e63, #2196f3);
+  width: 105px;
+  height: 4px;
+  background: linear-gradient(90deg, #d5b06b, #74b9ad, #97ae79);
   margin: 14px auto 0;
   border-radius: 20px;
 }
@@ -64,10 +64,10 @@ p {
 .hero {
   min-height: 100vh;
   background:
-    radial-gradient(circle at 15% 20%, rgba(255, 193, 7, 0.55), transparent 25%),
-    radial-gradient(circle at 85% 18%, rgba(233, 30, 99, 0.45), transparent 28%),
-    radial-gradient(circle at 50% 85%, rgba(33, 150, 243, 0.35), transparent 30%),
-    linear-gradient(135deg, #ff80ab 0%, #b388ff 35%, #82b1ff 70%, #ffd54f 100%);
+    radial-gradient(circle at 16% 20%, rgba(116, 185, 173, 0.24), transparent 28%),
+    radial-gradient(circle at 85% 18%, rgba(151, 174, 121, 0.22), transparent 30%),
+    radial-gradient(circle at 50% 82%, rgba(213, 176, 107, 0.16), transparent 34%),
+    linear-gradient(135deg, #fffaf3 0%, #edf7f4 48%, #ddebe6 100%);
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -80,7 +80,7 @@ p {
   width: 540px;
   height: 540px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.28);
+  background-color: rgba(255, 255, 255, 0.34);
   top: -160px;
   left: -140px;
 }
@@ -91,7 +91,7 @@ p {
   width: 380px;
   height: 380px;
   border-radius: 50%;
-  border: 2px solid rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(63, 108, 102, 0.15);
   bottom: -120px;
   right: -80px;
 }
@@ -114,14 +114,15 @@ p {
 
 .small-title {
   display: inline-block;
-  background: linear-gradient(135deg, #ffeb3b, #ff80ab);
-  color: #4a005f;
+  background: linear-gradient(135deg, #e2f1ed, #e9f1dc);
+  color: #425750;
   padding: 9px 20px;
   border-radius: 999px;
   font-weight: bold;
   font-size: 15px;
   margin-bottom: 22px;
-  box-shadow: 0 10px 25px rgba(70, 49, 38, 0.15);
+  box-shadow: 0 10px 25px rgba(70, 49, 38, 0.08);
+  border: 1px solid rgba(116, 185, 173, 0.22);
 }
 
 .hero h1 {
@@ -129,30 +130,22 @@ p {
   line-height: 1.25;
   max-width: 780px;
   margin-bottom: 22px;
-  color: #ffffff;
-  background: linear-gradient(90deg, #6a1b9a, #e91e63, #ff9800);
-  display: inline-block;
-  padding: 22px 34px;
-  border-radius: 30px;
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+  color: #2f2925;
 }
 
 .subtitle {
   font-size: 25px;
-  color: #ffffff;
+  color: #4f7b74;
   max-width: 660px;
   font-weight: bold;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
 }
 
 .hero-description {
   font-size: 19px;
-  color: #ffffff;
+  color: #58514b;
   max-width: 690px;
   margin-top: 18px;
   line-height: 1.9;
-  font-weight: bold;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
 }
 
 /* תמונה ראשית */
@@ -173,20 +166,20 @@ p {
   width: 570px;
   height: 570px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #ffffff, #ffe0f0, #e3f2fd, #fff59d);
+  background: linear-gradient(135deg, #fffdf8, #dff2ee, #e8f0dd);
   left: 50%;
   bottom: 35px;
   transform: translateX(-50%);
   z-index: -1;
-  box-shadow: 0 25px 60px rgba(123, 31, 162, 0.28);
+  box-shadow: 0 25px 60px rgba(63, 108, 102, 0.15);
 }
 
 .hero-image::after {
   content: "";
   position: absolute;
   width: 460px;
-  height: 3px;
-  background-color: rgba(255, 255, 255, 0.75);
+  height: 2px;
+  background-color: rgba(63, 108, 102, 0.20);
   bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
@@ -200,13 +193,13 @@ p {
   position: relative;
   z-index: 2;
   margin-bottom: 0;
-  filter: drop-shadow(0 20px 28px rgba(0, 0, 0, 0.18));
+  filter: drop-shadow(0 20px 28px rgba(0, 0, 0, 0.14));
 }
 
 /* למה לבחור */
 
 .why-section {
-  background: #fff3e0;
+  background-color: #f9fbfa;
 }
 
 .check-list {
@@ -218,21 +211,25 @@ p {
 }
 
 .check-list li {
-  background: linear-gradient(135deg, #ffffff, #ffe0f0, #e3f2fd);
+  background: linear-gradient(135deg, #ffffff, #f3fbf8);
   padding: 23px 26px;
   padding-right: 70px;
   border-radius: 22px;
   font-size: 18px;
   color: #3c312c;
   position: relative;
-  border: 3px solid #e91e63;
-  box-shadow: 0 18px 38px rgba(123, 31, 162, 0.18);
+  box-shadow:
+    0 14px 34px rgba(64, 46, 38, 0.08),
+    inset 0 0 0 1px rgba(116, 185, 173, 0.14);
   transition: 0.3s ease;
+  border-right: 5px solid #6ca89f;
 }
 
 .check-list li:hover {
   transform: translateY(-5px);
-  box-shadow: 0 24px 48px rgba(123, 31, 162, 0.25);
+  box-shadow:
+    0 20px 45px rgba(64, 46, 38, 0.12),
+    inset 0 0 0 1px rgba(116, 185, 173, 0.20);
 }
 
 .check-list li::before {
@@ -243,18 +240,18 @@ p {
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #7b1fa2, #e91e63);
+  background: linear-gradient(135deg, #74b9ad, #5c8e87);
   color: white;
   text-align: center;
   line-height: 32px;
   font-weight: bold;
-  box-shadow: 0 8px 18px rgba(123, 31, 162, 0.3);
+  box-shadow: 0 8px 18px rgba(92, 142, 135, 0.24);
 }
 
 /* גלריה */
 
 .gallery-section {
-  background: #fce4ec;
+  background-color: #eef7f5;
 }
 
 .gallery {
@@ -268,30 +265,32 @@ p {
   height: 430px;
   object-fit: cover;
   border-radius: 28px;
-  border: 7px solid #ffffff;
-  box-shadow: 0 18px 38px rgba(123, 31, 162, 0.22);
+  border: 6px solid #ffffff;
+  box-shadow: 0 18px 38px rgba(63, 108, 102, 0.14);
   transition: 0.3s ease;
 }
 
 .gallery img:hover {
-  transform: scale(1.03);
+  transform: scale(1.025);
 }
 
 /* מי אני */
 
 .about-section {
-  background: linear-gradient(135deg, #7b1fa2, #e91e63, #ff9800);
+  background:
+    linear-gradient(rgba(45, 52, 50, 0.72), rgba(45, 52, 50, 0.72)),
+    linear-gradient(135deg, #5c8e87, #79bcb0, #9aae7a);
 }
 
 .about-box {
   max-width: 920px;
   margin: 0 auto;
-  background: linear-gradient(135deg, #ffffff, #ffe0f0, #e3f2fd);
+  background: linear-gradient(135deg, #ffffff, #f3fbf8);
   padding: 48px;
   border-radius: 30px;
   text-align: center;
-  border: 3px solid #ffffff;
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 20px 45px rgba(25, 18, 15, 0.18);
+  border: 1px solid rgba(116, 185, 173, 0.20);
 }
 
 .about-box h2 {
@@ -306,7 +305,7 @@ p {
 /* נושאי ההרצאות */
 
 .topics-section {
-  background: #e3f2fd;
+  background-color: #f8fbfa;
 }
 
 .topics-grid {
@@ -316,37 +315,41 @@ p {
 }
 
 .topic-card {
-  background: linear-gradient(135deg, #ffffff, #ffe0f0, #e3f2fd);
+  background: linear-gradient(135deg, #ffffff, #f3fbf8);
   border-radius: 28px;
   padding: 34px 28px;
-  border: 3px solid #e91e63;
-  box-shadow: 0 18px 38px rgba(123, 31, 162, 0.18);
+  box-shadow:
+    0 14px 34px rgba(64, 46, 38, 0.08),
+    inset 0 0 0 1px rgba(116, 185, 173, 0.14);
   transition: 0.3s ease;
   text-align: right;
+  border: 1px solid rgba(116, 185, 173, 0.18);
 }
 
 .topic-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 24px 48px rgba(123, 31, 162, 0.25);
+  box-shadow:
+    0 22px 44px rgba(64, 46, 38, 0.13),
+    inset 0 0 0 1px rgba(116, 185, 173, 0.22);
 }
 
 .topic-icon {
   width: 74px;
   height: 74px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #ff9800, #e91e63, #2196f3);
+  background: linear-gradient(135deg, #74b9ad, #4f8c86, #97ae79);
   color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 34px;
   margin-bottom: 22px;
-  box-shadow: 0 12px 26px rgba(233, 30, 99, 0.3);
+  box-shadow: 0 12px 26px rgba(79, 140, 134, 0.22);
 }
 
 .topic-card h3 {
   font-size: 25px;
-  color: #e91e63;
+  color: #42736d;
   margin-bottom: 14px;
 }
 
@@ -359,7 +362,7 @@ p {
 /* למי מתאים */
 
 .audience-section {
-  background: #f3e5f5;
+  background-color: #f2f7f4;
 }
 
 .cards {
@@ -369,23 +372,27 @@ p {
 }
 
 .card {
-  background: linear-gradient(135deg, #ffffff, #fff3cd, #e3f2fd);
+  background: linear-gradient(135deg, #ffffff, #f3fbf8);
   padding: 34px 26px;
   border-radius: 26px;
   text-align: center;
-  border: 3px solid #7b1fa2;
-  box-shadow: 0 18px 38px rgba(123, 31, 162, 0.18);
+  box-shadow:
+    0 14px 34px rgba(64, 46, 38, 0.08),
+    inset 0 0 0 1px rgba(116, 185, 173, 0.14);
   transition: 0.3s ease;
+  border: 1px solid rgba(116, 185, 173, 0.18);
 }
 
 .card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 24px 48px rgba(123, 31, 162, 0.25);
+  box-shadow:
+    0 22px 44px rgba(64, 46, 38, 0.13),
+    inset 0 0 0 1px rgba(116, 185, 173, 0.22);
 }
 
 .card h3 {
   font-size: 23px;
-  color: #e91e63;
+  color: #42736d;
   margin-bottom: 14px;
 }
 
@@ -396,7 +403,7 @@ p {
 /* המלצות */
 
 .testimonials-section {
-  background: #fffde7;
+  background-color: #f8fbfa;
 }
 
 .testimonials {
@@ -406,11 +413,11 @@ p {
 }
 
 .testimonial {
-  background: linear-gradient(135deg, #ffffff, #ffe0f0, #e3f2fd);
+  background: linear-gradient(135deg, #ffffff, #f3fbf8);
   border-radius: 24px;
   padding: 32px;
-  box-shadow: 0 18px 38px rgba(123, 31, 162, 0.18);
-  border: 3px solid #2196f3;
+  box-shadow: 0 16px 36px rgba(64, 46, 38, 0.08);
+  border: 1px solid rgba(116, 185, 173, 0.18);
   position: relative;
 }
 
@@ -420,7 +427,7 @@ p {
   top: -8px;
   right: 24px;
   font-size: 64px;
-  color: rgba(233, 30, 99, 0.28);
+  color: rgba(116, 185, 173, 0.20);
   font-family: Georgia, serif;
 }
 
@@ -433,7 +440,7 @@ p {
 
 .testimonial span {
   display: block;
-  color: #e91e63;
+  color: #42736d;
   font-weight: bold;
   font-size: 15px;
 }
@@ -441,7 +448,9 @@ p {
 /* יצירת קשר */
 
 .cta {
-  background: linear-gradient(135deg, #6a1b9a, #e91e63, #ff9800, #2196f3);
+  background:
+    linear-gradient(rgba(45, 52, 50, 0.82), rgba(45, 52, 50, 0.82)),
+    linear-gradient(135deg, #5c8e87, #74b9ad, #97ae79);
   color: white;
   text-align: center;
   padding: 95px 20px;
@@ -453,15 +462,14 @@ p {
 }
 
 .cta h2::after {
-  background: #ffffff;
+  background: #dbe9de;
 }
 
 .cta p {
-  color: #ffffff;
+  color: #f5f8f7;
   max-width: 720px;
   margin: 0 auto 34px;
   font-size: 19px;
-  font-weight: bold;
 }
 
 .contact-buttons {
@@ -482,7 +490,6 @@ p {
   font-size: 17px;
   font-weight: bold;
   transition: 0.3s ease;
-  color: #ffffff;
 }
 
 .contact-btn i {
@@ -490,9 +497,9 @@ p {
 }
 
 .whatsapp-btn {
-  background: linear-gradient(135deg, #00c853, #64dd17);
+  background: linear-gradient(135deg, #7ea887, #5f7f67);
   color: #ffffff;
-  box-shadow: 0 14px 32px rgba(37, 211, 102, 0.3);
+  box-shadow: 0 14px 32px rgba(95, 127, 103, 0.28);
 }
 
 .whatsapp-btn i {
@@ -500,14 +507,14 @@ p {
 }
 
 .whatsapp-btn:hover {
-  background: linear-gradient(135deg, #00a844, #4caf50);
+  background: linear-gradient(135deg, #6d9776, #506b57);
   transform: translateY(-4px);
 }
 
 .phone-btn {
-  background: linear-gradient(135deg, #2196f3, #7b1fa2);
+  background: linear-gradient(135deg, #5c8e87, #355f5b);
   color: #ffffff;
-  box-shadow: 0 14px 32px rgba(33, 150, 243, 0.3);
+  box-shadow: 0 14px 32px rgba(53, 95, 91, 0.28);
 }
 
 .phone-btn i {
@@ -515,7 +522,7 @@ p {
 }
 
 .phone-btn:hover {
-  background: linear-gradient(135deg, #1976d2, #6a1b9a);
+  background: linear-gradient(135deg, #4f7e77, #2d514d);
   transform: translateY(-4px);
 }
 
@@ -564,8 +571,6 @@ p {
 
   .hero h1 {
     font-size: 32px;
-    padding: 16px 22px;
-    border-radius: 22px;
   }
 
   .subtitle {

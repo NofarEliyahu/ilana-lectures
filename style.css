@@ -9,6 +9,7 @@ html {
 }
 
 body {
+  border: 15px solid red !important;
   direction: rtl;
   font-family: Arial, sans-serif;
   background: linear-gradient(180deg, #f8fbfa 0%, #eef7f5 45%, #f4f2ea 100%);

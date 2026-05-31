@@ -633,4 +633,129 @@ p {
   .contact-btn {
     width: 100%;
   }
+  /* צבעוני יותר - להדביק בסוף style.css */
+
+/* רקע כללי צבעוני */
+body {
+  background: linear-gradient(180deg, #fff0f7 0%, #eef7ff 45%, #fff8e1 100%) !important;
+}
+
+/* פתיחה צבעונית ממש */
+.hero {
+  background:
+    radial-gradient(circle at 15% 20%, rgba(255, 193, 7, 0.55), transparent 25%),
+    radial-gradient(circle at 85% 18%, rgba(233, 30, 99, 0.45), transparent 28%),
+    radial-gradient(circle at 50% 85%, rgba(33, 150, 243, 0.35), transparent 30%),
+    linear-gradient(135deg, #ffe0f0 0%, #e3f2fd 45%, #fff3cd 100%) !important;
+}
+
+/* הכותרת הראשית צבעונית ובולטת */
+.hero h1 {
+  color: #ffffff !important;
+  background: linear-gradient(90deg, #7b1fa2, #e91e63, #ff9800) !important;
+  -webkit-background-clip: unset !important;
+  -webkit-text-fill-color: #ffffff !important;
+  display: inline-block;
+  padding: 18px 28px;
+  border-radius: 28px;
+  box-shadow: 0 16px 35px rgba(233, 30, 99, 0.35);
+}
+
+/* הכותרת הקטנה מעל */
+.small-title {
+  background: linear-gradient(135deg, #ffeb3b, #ff80ab) !important;
+  color: #4a005f !important;
+  border: none !important;
+}
+
+/* כותרות אזורים */
+h2 {
+  color: #7b1fa2 !important;
+}
+
+/* קו צבעוני מתחת לכותרות */
+h2::after {
+  background: linear-gradient(90deg, #ff9800, #e91e63, #2196f3) !important;
+  height: 5px !important;
+  width: 120px !important;
+}
+
+/* אזורים בצבעים שונים */
+.why-section {
+  background: #fff3e0 !important;
+}
+
+.gallery-section {
+  background: #fce4ec !important;
+}
+
+.topics-section {
+  background: #e3f2fd !important;
+}
+
+.audience-section {
+  background: #f3e5f5 !important;
+}
+
+.testimonials-section {
+  background: #fffde7 !important;
+}
+
+/* כרטיסים צבעוניים יותר */
+.topic-card,
+.card,
+.testimonial,
+.about-box,
+.check-list li {
+  background: linear-gradient(135deg, #ffffff, #ffe3f0, #e3f2fd) !important;
+  border: 2px solid rgba(233, 30, 99, 0.25) !important;
+  box-shadow: 0 18px 38px rgba(123, 31, 162, 0.18) !important;
+}
+
+/* כותרות בתוך הכרטיסים */
+.topic-card h3,
+.card h3 {
+  color: #e91e63 !important;
+}
+
+/* אייקונים צבעוניים */
+.topic-icon {
+  background: linear-gradient(135deg, #ff9800, #e91e63, #2196f3) !important;
+  color: white !important;
+}
+
+/* סימון וי ברשימה */
+.check-list li::before {
+  background: linear-gradient(135deg, #7b1fa2, #e91e63) !important;
+}
+
+/* אזור מי אני */
+.about-section {
+  background:
+    linear-gradient(rgba(123, 31, 162, 0.65), rgba(233, 30, 99, 0.65)),
+    linear-gradient(135deg, #7b1fa2, #e91e63, #ff9800) !important;
+}
+
+/* אזור יצירת קשר */
+.cta {
+  background:
+    linear-gradient(rgba(72, 0, 95, 0.78), rgba(72, 0, 95, 0.78)),
+    linear-gradient(135deg, #7b1fa2, #e91e63, #ff9800, #2196f3) !important;
+}
+
+/* כפתורים */
+.contact-btn {
+  background: linear-gradient(135deg, #7b1fa2, #e91e63, #ff9800) !important;
+  color: white !important;
+}
+
+/* וואטסאפ */
+.whatsapp-btn {
+  background: linear-gradient(135deg, #00c853, #64dd17) !important;
+}
+
+/* טלפון */
+.phone-btn {
+  background: linear-gradient(135deg, #2196f3, #7b1fa2) !important;
+}
 }

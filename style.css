@@ -11,7 +11,7 @@ html {
 body {
   direction: rtl;
   font-family: Arial, sans-serif;
-  background: linear-gradient(180deg, #fff7f2 0%, #fff1f8 45%, #f2fbff 100%);
+  background: linear-gradient(180deg, #fff0f7 0%, #eef7ff 45%, #fff8e1 100%);
   color: #2f2925;
   line-height: 1.8;
 }
@@ -42,15 +42,15 @@ h2 {
   text-align: center;
   margin-bottom: 42px;
   position: relative;
-  color: #7a3d8a;
+  color: #7b1fa2;
 }
 
 h2::after {
   content: "";
   display: block;
-  width: 95px;
-  height: 4px;
-  background: linear-gradient(90deg, #f08a24, #d45a7d, #8b3f8f);
+  width: 130px;
+  height: 6px;
+  background: linear-gradient(90deg, #ff9800, #e91e63, #2196f3);
   margin: 14px auto 0;
   border-radius: 20px;
 }
@@ -64,10 +64,10 @@ p {
 .hero {
   min-height: 100vh;
   background:
-    radial-gradient(circle at 12% 18%, rgba(255, 205, 120, 0.45), transparent 28%),
-    radial-gradient(circle at 88% 18%, rgba(255, 150, 190, 0.35), transparent 30%),
-    radial-gradient(circle at 50% 85%, rgba(150, 215, 255, 0.28), transparent 36%),
-    linear-gradient(135deg, #fff7ed 0%, #fff0f7 55%, #edf8ff 100%);
+    radial-gradient(circle at 15% 20%, rgba(255, 193, 7, 0.55), transparent 25%),
+    radial-gradient(circle at 85% 18%, rgba(233, 30, 99, 0.45), transparent 28%),
+    radial-gradient(circle at 50% 85%, rgba(33, 150, 243, 0.35), transparent 30%),
+    linear-gradient(135deg, #ff80ab 0%, #b388ff 35%, #82b1ff 70%, #ffd54f 100%);
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -80,7 +80,7 @@ p {
   width: 540px;
   height: 540px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.42);
+  background-color: rgba(255, 255, 255, 0.28);
   top: -160px;
   left: -140px;
 }
@@ -91,7 +91,7 @@ p {
   width: 380px;
   height: 380px;
   border-radius: 50%;
-  border: 1px solid rgba(139, 63, 143, 0.18);
+  border: 2px solid rgba(255, 255, 255, 0.35);
   bottom: -120px;
   right: -80px;
 }
@@ -114,15 +114,14 @@ p {
 
 .small-title {
   display: inline-block;
-  background: linear-gradient(135deg, #ffe6a7, #ffc9dc);
-  color: #6d2e55;
+  background: linear-gradient(135deg, #ffeb3b, #ff80ab);
+  color: #4a005f;
   padding: 9px 20px;
   border-radius: 999px;
   font-weight: bold;
   font-size: 15px;
   margin-bottom: 22px;
-  box-shadow: 0 10px 25px rgba(70, 49, 38, 0.08);
-  border: 1px solid rgba(212, 90, 125, 0.25);
+  box-shadow: 0 10px 25px rgba(70, 49, 38, 0.15);
 }
 
 .hero h1 {
@@ -130,25 +129,30 @@ p {
   line-height: 1.25;
   max-width: 780px;
   margin-bottom: 22px;
-  color: #8b3f8f;
-  background: linear-gradient(90deg, #8b3f8f, #d45a7d, #f08a24);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 800;
+  color: #ffffff;
+  background: linear-gradient(90deg, #6a1b9a, #e91e63, #ff9800);
+  display: inline-block;
+  padding: 22px 34px;
+  border-radius: 30px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
 }
 
 .subtitle {
   font-size: 25px;
-  color: #6d5b52;
+  color: #ffffff;
   max-width: 660px;
+  font-weight: bold;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
 }
 
 .hero-description {
   font-size: 19px;
-  color: #5a4a43;
+  color: #ffffff;
   max-width: 690px;
   margin-top: 18px;
   line-height: 1.9;
+  font-weight: bold;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
 }
 
 /* תמונה ראשית */
@@ -169,20 +173,20 @@ p {
   width: 570px;
   height: 570px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #ffe1ec, #fff6df, #e4f7ff);
+  background: linear-gradient(135deg, #ffffff, #ffe0f0, #e3f2fd, #fff59d);
   left: 50%;
   bottom: 35px;
   transform: translateX(-50%);
   z-index: -1;
-  box-shadow: 0 25px 60px rgba(139, 63, 143, 0.14);
+  box-shadow: 0 25px 60px rgba(123, 31, 162, 0.28);
 }
 
 .hero-image::after {
   content: "";
   position: absolute;
   width: 460px;
-  height: 2px;
-  background-color: rgba(139, 63, 143, 0.2);
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.75);
   bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
@@ -196,13 +200,13 @@ p {
   position: relative;
   z-index: 2;
   margin-bottom: 0;
-  filter: drop-shadow(0 20px 28px rgba(0, 0, 0, 0.14));
+  filter: drop-shadow(0 20px 28px rgba(0, 0, 0, 0.18));
 }
 
 /* למה לבחור */
 
 .why-section {
-  background-color: #fff7f2;
+  background: #fff3e0;
 }
 
 .check-list {
@@ -214,25 +218,21 @@ p {
 }
 
 .check-list li {
-  background: linear-gradient(135deg, #ffffff, #fff5fa, #f2fbff);
+  background: linear-gradient(135deg, #ffffff, #ffe0f0, #e3f2fd);
   padding: 23px 26px;
   padding-right: 70px;
   border-radius: 22px;
   font-size: 18px;
   color: #3c312c;
   position: relative;
-  box-shadow:
-    0 14px 34px rgba(139, 63, 143, 0.09),
-    inset 0 0 0 1px rgba(212, 90, 125, 0.13);
+  border: 3px solid #e91e63;
+  box-shadow: 0 18px 38px rgba(123, 31, 162, 0.18);
   transition: 0.3s ease;
-  border-right: 5px solid #d45a7d;
 }
 
 .check-list li:hover {
   transform: translateY(-5px);
-  box-shadow:
-    0 20px 45px rgba(139, 63, 143, 0.14),
-    inset 0 0 0 1px rgba(212, 90, 125, 0.18);
+  box-shadow: 0 24px 48px rgba(123, 31, 162, 0.25);
 }
 
 .check-list li::before {
@@ -243,18 +243,18 @@ p {
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #8b3f8f, #d45a7d);
+  background: linear-gradient(135deg, #7b1fa2, #e91e63);
   color: white;
   text-align: center;
   line-height: 32px;
   font-weight: bold;
-  box-shadow: 0 8px 18px rgba(139, 63, 143, 0.24);
+  box-shadow: 0 8px 18px rgba(123, 31, 162, 0.3);
 }
 
 /* גלריה */
 
 .gallery-section {
-  background-color: #ffffff;
+  background: #fce4ec;
 }
 
 .gallery {
@@ -268,8 +268,8 @@ p {
   height: 430px;
   object-fit: cover;
   border-radius: 28px;
-  border: 6px solid #ffffff;
-  box-shadow: 0 18px 38px rgba(122, 61, 138, 0.18);
+  border: 7px solid #ffffff;
+  box-shadow: 0 18px 38px rgba(123, 31, 162, 0.22);
   transition: 0.3s ease;
 }
 
@@ -280,20 +280,18 @@ p {
 /* מי אני */
 
 .about-section {
-  background:
-    linear-gradient(rgba(47, 41, 37, 0.72), rgba(47, 41, 37, 0.72)),
-    linear-gradient(135deg, #ffd88a, #ffb6cf, #c9efff);
+  background: linear-gradient(135deg, #7b1fa2, #e91e63, #ff9800);
 }
 
 .about-box {
   max-width: 920px;
   margin: 0 auto;
-  background: linear-gradient(135deg, #ffffff, #fff5fa, #f2fbff);
+  background: linear-gradient(135deg, #ffffff, #ffe0f0, #e3f2fd);
   padding: 48px;
   border-radius: 30px;
   text-align: center;
-  box-shadow: 0 20px 45px rgba(139, 63, 143, 0.18);
-  border: 1px solid rgba(212, 90, 125, 0.18);
+  border: 3px solid #ffffff;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.22);
 }
 
 .about-box h2 {
@@ -308,7 +306,7 @@ p {
 /* נושאי ההרצאות */
 
 .topics-section {
-  background-color: #fffdfb;
+  background: #e3f2fd;
 }
 
 .topics-grid {
@@ -318,40 +316,37 @@ p {
 }
 
 .topic-card {
-  background: linear-gradient(135deg, #ffffff, #fff5fa, #f2fbff);
+  background: linear-gradient(135deg, #ffffff, #ffe0f0, #e3f2fd);
   border-radius: 28px;
   padding: 34px 28px;
-  box-shadow:
-    0 14px 34px rgba(139, 63, 143, 0.08),
-    inset 0 0 0 1px rgba(212, 90, 125, 0.11);
+  border: 3px solid #e91e63;
+  box-shadow: 0 18px 38px rgba(123, 31, 162, 0.18);
   transition: 0.3s ease;
   text-align: right;
-  border: 1px solid rgba(212, 90, 125, 0.18);
 }
 
 .topic-card:hover {
   transform: translateY(-6px);
-  box-shadow:
-    0 22px 44px rgba(139, 63, 143, 0.14),
-    inset 0 0 0 1px rgba(212, 90, 125, 0.18);
+  box-shadow: 0 24px 48px rgba(123, 31, 162, 0.25);
 }
 
 .topic-icon {
   width: 74px;
   height: 74px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #ffd88a, #ffb6cf, #c9efff);
+  background: linear-gradient(135deg, #ff9800, #e91e63, #2196f3);
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 34px;
   margin-bottom: 22px;
-  box-shadow: 0 12px 26px rgba(212, 90, 125, 0.2);
+  box-shadow: 0 12px 26px rgba(233, 30, 99, 0.3);
 }
 
 .topic-card h3 {
   font-size: 25px;
-  color: #c04b78;
+  color: #e91e63;
   margin-bottom: 14px;
 }
 
@@ -364,7 +359,7 @@ p {
 /* למי מתאים */
 
 .audience-section {
-  background-color: #fff7f2;
+  background: #f3e5f5;
 }
 
 .cards {
@@ -374,27 +369,23 @@ p {
 }
 
 .card {
-  background: linear-gradient(135deg, #ffffff, #fff5fa, #f2fbff);
+  background: linear-gradient(135deg, #ffffff, #fff3cd, #e3f2fd);
   padding: 34px 26px;
   border-radius: 26px;
   text-align: center;
-  box-shadow:
-    0 14px 34px rgba(139, 63, 143, 0.08),
-    inset 0 0 0 1px rgba(212, 90, 125, 0.11);
+  border: 3px solid #7b1fa2;
+  box-shadow: 0 18px 38px rgba(123, 31, 162, 0.18);
   transition: 0.3s ease;
-  border: 1px solid rgba(212, 90, 125, 0.18);
 }
 
 .card:hover {
   transform: translateY(-6px);
-  box-shadow:
-    0 22px 44px rgba(139, 63, 143, 0.14),
-    inset 0 0 0 1px rgba(212, 90, 125, 0.18);
+  box-shadow: 0 24px 48px rgba(123, 31, 162, 0.25);
 }
 
 .card h3 {
   font-size: 23px;
-  color: #c04b78;
+  color: #e91e63;
   margin-bottom: 14px;
 }
 
@@ -405,7 +396,7 @@ p {
 /* המלצות */
 
 .testimonials-section {
-  background-color: #ffffff;
+  background: #fffde7;
 }
 
 .testimonials {
@@ -415,11 +406,11 @@ p {
 }
 
 .testimonial {
-  background: linear-gradient(135deg, #ffffff, #fff5fa, #f2fbff);
+  background: linear-gradient(135deg, #ffffff, #ffe0f0, #e3f2fd);
   border-radius: 24px;
   padding: 32px;
-  box-shadow: 0 16px 36px rgba(139, 63, 143, 0.09);
-  border: 1px solid rgba(212, 90, 125, 0.18);
+  box-shadow: 0 18px 38px rgba(123, 31, 162, 0.18);
+  border: 3px solid #2196f3;
   position: relative;
 }
 
@@ -429,7 +420,7 @@ p {
   top: -8px;
   right: 24px;
   font-size: 64px;
-  color: rgba(212, 90, 125, 0.22);
+  color: rgba(233, 30, 99, 0.28);
   font-family: Georgia, serif;
 }
 
@@ -442,7 +433,7 @@ p {
 
 .testimonial span {
   display: block;
-  color: #c04b78;
+  color: #e91e63;
   font-weight: bold;
   font-size: 15px;
 }
@@ -450,9 +441,7 @@ p {
 /* יצירת קשר */
 
 .cta {
-  background:
-    linear-gradient(rgba(47, 41, 37, 0.82), rgba(47, 41, 37, 0.82)),
-    linear-gradient(135deg, #8b3f8f, #d45a7d, #f08a24);
+  background: linear-gradient(135deg, #6a1b9a, #e91e63, #ff9800, #2196f3);
   color: white;
   text-align: center;
   padding: 95px 20px;
@@ -468,10 +457,11 @@ p {
 }
 
 .cta p {
-  color: #f7eee8;
+  color: #ffffff;
   max-width: 720px;
   margin: 0 auto 34px;
   font-size: 19px;
+  font-weight: bold;
 }
 
 .contact-buttons {
@@ -492,24 +482,17 @@ p {
   font-size: 17px;
   font-weight: bold;
   transition: 0.3s ease;
-  background: linear-gradient(135deg, #8b3f8f, #d45a7d, #f08a24);
   color: #ffffff;
-  box-shadow: 0 14px 34px rgba(212, 90, 125, 0.35);
 }
 
 .contact-btn i {
   font-size: 22px;
 }
 
-.contact-btn:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 20px 42px rgba(212, 90, 125, 0.45);
-}
-
 .whatsapp-btn {
-  background: linear-gradient(135deg, #25d366, #1ebe5d);
+  background: linear-gradient(135deg, #00c853, #64dd17);
   color: #ffffff;
-  box-shadow: 0 14px 32px rgba(37, 211, 102, 0.28);
+  box-shadow: 0 14px 32px rgba(37, 211, 102, 0.3);
 }
 
 .whatsapp-btn i {
@@ -517,14 +500,14 @@ p {
 }
 
 .whatsapp-btn:hover {
-  background: linear-gradient(135deg, #1ebe5d, #17a84f);
+  background: linear-gradient(135deg, #00a844, #4caf50);
   transform: translateY(-4px);
 }
 
 .phone-btn {
-  background: linear-gradient(135deg, #7a3d8a, #111111);
+  background: linear-gradient(135deg, #2196f3, #7b1fa2);
   color: #ffffff;
-  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 14px 32px rgba(33, 150, 243, 0.3);
 }
 
 .phone-btn i {
@@ -532,7 +515,7 @@ p {
 }
 
 .phone-btn:hover {
-  background: linear-gradient(135deg, #5c2e68, #000000);
+  background: linear-gradient(135deg, #1976d2, #6a1b9a);
   transform: translateY(-4px);
 }
 
@@ -581,6 +564,8 @@ p {
 
   .hero h1 {
     font-size: 32px;
+    padding: 16px 22px;
+    border-radius: 22px;
   }
 
   .subtitle {
@@ -633,129 +618,4 @@ p {
   .contact-btn {
     width: 100%;
   }
-  /* צבעוני יותר - להדביק בסוף style.css */
-
-/* רקע כללי צבעוני */
-body {
-  background: linear-gradient(180deg, #fff0f7 0%, #eef7ff 45%, #fff8e1 100%) !important;
-}
-
-/* פתיחה צבעונית ממש */
-.hero {
-  background:
-    radial-gradient(circle at 15% 20%, rgba(255, 193, 7, 0.55), transparent 25%),
-    radial-gradient(circle at 85% 18%, rgba(233, 30, 99, 0.45), transparent 28%),
-    radial-gradient(circle at 50% 85%, rgba(33, 150, 243, 0.35), transparent 30%),
-    linear-gradient(135deg, #ffe0f0 0%, #e3f2fd 45%, #fff3cd 100%) !important;
-}
-
-/* הכותרת הראשית צבעונית ובולטת */
-.hero h1 {
-  color: #ffffff !important;
-  background: linear-gradient(90deg, #7b1fa2, #e91e63, #ff9800) !important;
-  -webkit-background-clip: unset !important;
-  -webkit-text-fill-color: #ffffff !important;
-  display: inline-block;
-  padding: 18px 28px;
-  border-radius: 28px;
-  box-shadow: 0 16px 35px rgba(233, 30, 99, 0.35);
-}
-
-/* הכותרת הקטנה מעל */
-.small-title {
-  background: linear-gradient(135deg, #ffeb3b, #ff80ab) !important;
-  color: #4a005f !important;
-  border: none !important;
-}
-
-/* כותרות אזורים */
-h2 {
-  color: #7b1fa2 !important;
-}
-
-/* קו צבעוני מתחת לכותרות */
-h2::after {
-  background: linear-gradient(90deg, #ff9800, #e91e63, #2196f3) !important;
-  height: 5px !important;
-  width: 120px !important;
-}
-
-/* אזורים בצבעים שונים */
-.why-section {
-  background: #fff3e0 !important;
-}
-
-.gallery-section {
-  background: #fce4ec !important;
-}
-
-.topics-section {
-  background: #e3f2fd !important;
-}
-
-.audience-section {
-  background: #f3e5f5 !important;
-}
-
-.testimonials-section {
-  background: #fffde7 !important;
-}
-
-/* כרטיסים צבעוניים יותר */
-.topic-card,
-.card,
-.testimonial,
-.about-box,
-.check-list li {
-  background: linear-gradient(135deg, #ffffff, #ffe3f0, #e3f2fd) !important;
-  border: 2px solid rgba(233, 30, 99, 0.25) !important;
-  box-shadow: 0 18px 38px rgba(123, 31, 162, 0.18) !important;
-}
-
-/* כותרות בתוך הכרטיסים */
-.topic-card h3,
-.card h3 {
-  color: #e91e63 !important;
-}
-
-/* אייקונים צבעוניים */
-.topic-icon {
-  background: linear-gradient(135deg, #ff9800, #e91e63, #2196f3) !important;
-  color: white !important;
-}
-
-/* סימון וי ברשימה */
-.check-list li::before {
-  background: linear-gradient(135deg, #7b1fa2, #e91e63) !important;
-}
-
-/* אזור מי אני */
-.about-section {
-  background:
-    linear-gradient(rgba(123, 31, 162, 0.65), rgba(233, 30, 99, 0.65)),
-    linear-gradient(135deg, #7b1fa2, #e91e63, #ff9800) !important;
-}
-
-/* אזור יצירת קשר */
-.cta {
-  background:
-    linear-gradient(rgba(72, 0, 95, 0.78), rgba(72, 0, 95, 0.78)),
-    linear-gradient(135deg, #7b1fa2, #e91e63, #ff9800, #2196f3) !important;
-}
-
-/* כפתורים */
-.contact-btn {
-  background: linear-gradient(135deg, #7b1fa2, #e91e63, #ff9800) !important;
-  color: white !important;
-}
-
-/* וואטסאפ */
-.whatsapp-btn {
-  background: linear-gradient(135deg, #00c853, #64dd17) !important;
-}
-
-/* טלפון */
-.phone-btn {
-  background: linear-gradient(135deg, #2196f3, #7b1fa2) !important;
-}
 }

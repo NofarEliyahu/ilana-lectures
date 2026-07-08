@@ -12,7 +12,7 @@ body {
   direction: rtl;
   font-family: Arial, sans-serif;
   background: linear-gradient(180deg, #f7fbfa 0%, #edf7f4 45%, #f3f6f2 100%);
-  color: #2f2925;
+  color: #0d8460;
   line-height: 1.8;
 }
 
@@ -34,7 +34,7 @@ img {
 h1,
 h2,
 h3 {
-  color: #2e2520;
+  color: #0d8460;
 }
 
 h2 {
@@ -130,16 +130,17 @@ p {
   line-height: 1.22;
   max-width: 780px;
   margin-bottom: 24px;
-  color: #2f2925;
+  color: #0a765e;
 }
 
 .subtitle {
-  font-size: 30px;
-  color: #3f877d;
-  max-width: 760px;
-  font-weight: 800;
-  line-height: 1.7;
-  margin-bottom: 18px;
+  font-family: Arial, sans-serif !important;
+  font-size: 40px;
+  color: #08745d;
+  max-width: 950px;
+  font-weight: 900 !important;
+  line-height: 1.55;
+  margin-bottom: 26px;
 }
 
 .hero-description {

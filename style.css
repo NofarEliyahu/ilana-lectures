@@ -206,7 +206,7 @@ p {
   box-shadow: none;
 }
 
-/* העיגול שמאחורי התמונה */
+/* העיגול שמאחורי האישה */
 
 .hero-image::before {
   content: "";
@@ -227,12 +227,14 @@ p {
   box-shadow: 0 25px 60px rgba(63, 108, 102, 0.14);
 }
 
-/* הסרת הקו שמתחת לתמונה */
+/* הסרת הקו מתחת לתמונה */
 
 .hero-image::after {
   display: none;
   content: none;
 }
+
+/* מיקום האישה בתוך העיגול */
 
 .hero-image img {
   max-height: 640px;
@@ -241,16 +243,15 @@ p {
   position: absolute;
   left: 50%;
   bottom: 0;
-  transform: translateX(-50%);
+  transform: translateX(calc(-50% - 55px));
   z-index: 2;
   display: block;
   margin: 0;
   padding: 0;
-  filter: drop-shadow(0 20px 28px rgba(0, 0, 0, 0.14));
+  filter: drop-shadow(
+    0 20px 28px rgba(0, 0, 0, 0.14)
+  );
 }
-}
-
-
 
 
 /* למה לבחור */
@@ -563,7 +564,6 @@ p {
       #69b7aa,
       #93b87b
     );
-
   color: white;
   text-align: center;
   padding: 95px 20px;
@@ -695,6 +695,10 @@ p {
     margin: 0;
   }
 
+  .hero-image img {
+    transform: translateX(calc(-50% - 35px));
+  }
+
   .gallery,
   .cards,
   .testimonials {
@@ -756,8 +760,9 @@ p {
 
   .hero-image img {
     max-height: 430px;
-    margin: 0;
-    transform: translateY(1px);
+    left: 50%;
+    bottom: 0;
+    transform: translateX(calc(-50% - 25px));
   }
 
   .gallery img {

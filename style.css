@@ -126,13 +126,13 @@ p {
 }
 
 .hero-content {
-  width: 88%;
-  max-width: 1250px;
+  width: 92%;
+  max-width: 1350px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 65px;
+  justify-content: center;
+  gap: 20px;
   position: relative;
   z-index: 2;
 }
